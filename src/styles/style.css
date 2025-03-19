@@ -1,0 +1,130 @@
+*{
+    transition: all ease 0.2s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+}
+.body{
+    background-color: #f2f2f2;
+}
+body{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    padding-bottom: 0;
+}
+.minhaFoto{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-size: contain;
+}
+h2{
+    font-size: 20px;
+    font-weight: 450;
+    color: #03ffbc;
+}
+h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: #9008ff;
+}
+.meuNome{
+    color: #03ffbc;
+}
+.oQueSou{
+    color: #9008ff;
+}
+.quemSou{
+    margin: 40px 50px;
+    font-size: 15px;
+    text-align: center;
+    color: #555;
+}
+.area img{
+    width: 60px;
+    border-radius: 5%;
+}
+.meusConhecimentos{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    font-size: 15px;
+    background-color: #fff;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0 0 10px #333;
+    border-radius: 5%;
+    color: #555;
+}
+.meusConhecimentos a{
+    text-decoration: none;
+}
+
+footer{
+    color: #555;
+    font-size: 15px;
+
+    margin: 50px;
+}
+.meusProjetosTitulo{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.meusProjetos{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projeto img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    box-shadow: 0 0 10px #333;
+    border-radius: 5%;
+    gap: 10px;
+    padding: 15px 0;
+}
+.descricaoDoProjeto{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #555;
+    padding: 0 10px;
+}
+.linkDoProjeto{
+    background-color: #03ffbc;
+    color: #9008ff;
+    cursor: pointer;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    font-size: 15px;
+}
+.linkDoProjeto:hover{
+    text-decoration: underline;
+    box-shadow: 0 0 7px #333;
+}
