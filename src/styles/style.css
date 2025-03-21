@@ -87,6 +87,7 @@ footer{
 }
 .meusProjetos{
     display: flex;
+    flex-direction: row;
     gap: 20px;
     width: 90%;
     justify-content: space-evenly;
@@ -127,4 +128,33 @@ footer{
 .linkDoProjeto:hover{
     text-decoration: underline;
     box-shadow: 0 0 7px #333;
+}
+
+@media (max-width:450px) and (max-height:900px){
+    .meusConhecimentos{
+        flex-wrap: wrap;
+    }
+    .meusConhecimentos a{
+        box-shadow: 0 0 15px #333;
+    }
+    .area{
+        border-radius: 10%;
+        width: 100px;
+        height: 100px;
+        box-shadow: none;
+    }
+    .area img{
+        width: 40px;
+        height: 40px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .meusProjetos{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer{
+        font-size: 12px;
+    }
 }
