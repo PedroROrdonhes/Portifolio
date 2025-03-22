@@ -159,6 +159,9 @@ footer{
         text-align: center;
     }
     h1{
-        font-size: 19px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
     }
 }
